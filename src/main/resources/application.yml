@@ -1,6 +1,10 @@
 app:
   brewery:
     apihost: http://localhost:8080
+  maxtotalconnections: 100
+  defaultmaxtotalconnections: 20
+  connectonrequesttimeout: 3000
+  sockettimeout: 3000
 logging:
   level:
     org:
